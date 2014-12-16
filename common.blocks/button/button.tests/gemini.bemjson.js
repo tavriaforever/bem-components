@@ -59,6 +59,20 @@
             '&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;',
             {
                 block : 'button',
+                mods : { theme : 'islands', size : 'm', view : 'plain' },
+                text : 'plain',
+                cls : 'gemini-test-button-plain-enabled'
+            },
+            '&nbsp;&nbsp;&nbsp;',
+            {
+                block : 'button',
+                mods : { theme : 'islands', size : 'm', view : 'plain', disabled : true },
+                text : 'plain',
+                cls : 'gemini-test-button-plain-disabled'
+            },
+            '&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;',
+            {
+                block : 'button',
                 mods : { theme : 'islands', size : 'm', view : 'pseudo' },
                 text : 'pseudo',
                 cls : 'gemini-test-button-pseudo-enabled'
